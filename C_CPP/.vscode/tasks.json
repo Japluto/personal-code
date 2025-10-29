@@ -9,6 +9,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-Wall",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-finput-charset=UTF-8",  // <-- 添加这一行
@@ -31,6 +32,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-Wall",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-finput-charset=UTF-8",  // <-- 添加这一行
@@ -42,6 +44,7 @@
             "problemMatcher": [
                 "$gcc"
             ],
+            "detail": "Compile C++ file with UTF-8 support", // <-- 添加这一行
             "group": {
                 "kind": "build",
                 "isDefault": true

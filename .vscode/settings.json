@@ -3,6 +3,7 @@
         "iostream": "cpp",
         "functional": "cpp",
         "random": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "database.h": "c"
     }
 }
